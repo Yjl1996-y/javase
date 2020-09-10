@@ -1,14 +1,14 @@
-package com.banyuan;
+package banyuan;
 
 public class Person {
     private String name;
-    private int id;
+    private String id;
     private String type;
 
     public Person() {
     }
 
-    public Person(String name, int id, String type) {
+    public Person(String name, String id, String type) {
         this.name = name;
         this.id = id;
         this.type = type;
@@ -22,11 +22,11 @@ public class Person {
         this.name = name;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
